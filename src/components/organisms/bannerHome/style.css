@@ -1,0 +1,34 @@
+.BigCtaHome {
+  text-decoration: none;
+  height: calc(100vh - 258px);
+  min-height: 500px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s;
+  filter: grayscale(1);
+}
+.BigCtaHome:hover {
+  text-decoration: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  filter: grayscale(0);
+}
+
+.BigCtaHome:hover .MuiButtonBase-root.generalBtn {
+    box-shadow: none;
+    background-color: var(--mainBtnColor);
+    color: #ffffff;
+    border: 1px solid var(--mainBtnColor);
+}
+
+@media screen and (max-width: 768px) {
+  .BigCtaHome {
+    filter: grayscale(0);
+  }
+}

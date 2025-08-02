@@ -1,0 +1,28 @@
+.Variant_form .customTextField .MuiInputBase-root input,
+.Variant_form .customTextField .MuiInputBase-root input:focus,
+.Variant_form .customTextField .MuiInputBase-root input:focus-visible,
+.Variant_form .customFileField .MuiInputBase-root input,
+.Variant_form .customFileField .MuiInputBase-root input:focus,
+.Variant_form .customFileField .MuiInputBase-root input:focus-visible,
+.MuiInputBase-root.customSelect {
+  height: 44px;
+}
+
+.Variant_form > div {
+    gap: 32px;
+}
+
+.Variant_form .FormActions > div > div > div {
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.Variant_form .FormActions > div > div > div .MuiButtonBase-root {
+    padding: 0;
+    min-height: 44px;
+    min-width: 120px !important;
+}
+.Variant_form p.MuiFormHelperText-root.Mui-error {
+    top: calc(100% + 1px);
+    text-align: left;
+}

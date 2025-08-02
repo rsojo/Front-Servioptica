@@ -1,0 +1,12 @@
+.MuiGrid2-root.HeaderRow {
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .MuiGrid2-root.HeaderRow {
+        flex-flow: column;
+    }
+}

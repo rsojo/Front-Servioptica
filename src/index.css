@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p.MuiFormHelperText-root.Mui-error {
+    font-size: 12px;
+    margin: 0;
+    margin-left: 0px;
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+li.MuiButtonBase-root.MuiMenuItem-root {
+    font-size: 14px;
+}
+:root {
+  --mainColor: #024F8F;
+  --mainBtnColor: #024F8F;
+  --hoverBtnColor: #006ec9;
+  --fieldColorText: #6A6C72;
+  --baceSize: 8px; 
+}
+body {
+  font-family: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #ffffff;
+  line-height: 1.2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+span {
+  font-family: 'Roboto', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.ag-root-wrapper {
+  border-radius: 3px !important;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiAlert-root {
+  gap: var(--baceSize)
+}
+.MuiPaper-root.MuiPaper-elevation > div.MuiAlert-standard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 0;
+  margin: 0;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.MuiTablePagination-toolbar, .MuiTablePagination-root {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+}

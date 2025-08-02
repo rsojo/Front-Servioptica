@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "groupName": "faq",
+    "fields": [
+      {
+        "id": 1,
+        "label": "Título:",
+        "name": "title",
+        "type": "text",
+        "columnSize": 12,
+        "important": true,
+        "options": null,
+        "default": "",
+        "placeholder": "",
+        "minlength": 3,
+        "maxlength": 160
+      },
+      {
+        "id": 2,
+        "label": "Estado:",
+        "name": "state",
+        "type": "select",
+        "columnSize": 12,
+        "important": true,
+        "options": [
+          {
+            "option": "Active",
+            "value": "Active"
+          },
+          {
+            "option": "Inactive",
+            "value": "Inactive"
+          }
+        ],
+        "placeholder": "",
+        "default": "Active",
+        "textError": "Este campo requerido"
+      },
+      {
+        "id": 3,
+        "label": "Descripción:",
+        "name": "description",
+        "type": "textarea",
+        "columnSize": 12,
+        "important": true,
+        "options": null,
+        "default": "",
+        "placeholder": "",
+        "minlength": 3,
+        "maxlength": 1440
+      }
+    ]
+  }
+]
